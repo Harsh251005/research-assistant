@@ -1,7 +1,31 @@
-.jbeval
-.idea
-.venv
-
+# Environment
 .env
+.env.local
 
-data
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data - don't commit PDFs or local vector store data
+data/
+qdrant_storage/
+
+# IDE
+.vscode/
+.idea/
+.jbeval/
+*.DS_Store
+
+# uv
+.uv/
+
+# Logs
+*.log
