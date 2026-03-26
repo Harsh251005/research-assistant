@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.11"
 dependencies = [
+    "flashrank>=0.2.10",
     "langchain>=1.2.13",
+    "langchain-community>=0.4.1",
     "langchain-groq>=1.1.2",
     "langchain-text-splitters>=1.1.1",
     "pymupdf>=1.27.2.2",
